@@ -31,3 +31,71 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.hlavicka {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: grey;
+
+}
+
+.menu li {
+    padding: 4px 50px 4px 0px;
+    margin: 4px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.domu {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.vizual {
+    position: relative;
+    width: 960px;
+}
+
+.pozadi {
+    position: relative;
+    width: 960px;
+}
+
+.telefon {
+    position: absolute;
+    bottom: px;
+    right: 0px;
+}
+
+.nadpis {
+    position: absolute;
+    z-index: 1;
+    padding: 40px;
+    font-size: 85px;
+    top: 30px;
+    color: white;
+    font-weight: 400;
+
+}
+
+.copy {
+    position: absolute;
+    z-index: 1;
+    padding: 40px;
+    font-size: 25px;
+    top: 180px;
+    color: white;
+    font-weight: 300;
+
+}
+
+.akce {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+}

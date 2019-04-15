@@ -59,6 +59,7 @@ body {
 .vizual {
     position: relative;
     width: 960px;
+    height: 540px;
 }
 
 .pozadi {
@@ -68,7 +69,7 @@ body {
 
 .telefon {
     position: absolute;
-    bottom: px;
+    bottom: 0px;
     right: 0px;
 }
 
@@ -77,7 +78,7 @@ body {
     z-index: 1;
     padding: 40px;
     font-size: 85px;
-    top: 30px;
+    top: 10px;
     color: white;
     font-weight: 400;
 
@@ -96,6 +97,106 @@ body {
 
 .akce {
     display: flex;
+    flex-direction: row;
     position: absolute;
-    bottom: 40px;
+    bottom: 60px;
+    padding: 15px 30px;
+    color: white;
+    
+}
+
+.akce a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tlacitko1 {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 15px 5px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 180px;
+    background-color: #48418e;
+    box-shadow: 1px 2px 5px #25133d;
+}
+
+.tlacitko2 {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin: 5px 15px 5px 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 180px;
+    box-shadow: 1px 2px 5px #25133d;
+}
+
+.vyhody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px 35px 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+.cestuj {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.letadlo {
+   width: 30%;
+}
+
+.chatuj {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.bubliny {
+    width: 30%;
+    
+}
+
+.dobrodruzstvi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.mapa {
+    width: 30%;
+}
+
+.paticka {
+    background-color: #48418e;
+    color: white;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
 }
